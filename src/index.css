@@ -15,3 +15,28 @@
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     border-radius: 10px;
 }
+
+.coins {
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+input[type=text] {
+    background: rgba(247, 247, 247, 0.1);
+    border: 1px solid #A3A3A3;
+    border-radius: 8px 0px 0px 8px;
+}
+
+input[type=submit] {
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.hero-head {
+    line-height: 140%;
+}
+
+.card-container {
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+}
