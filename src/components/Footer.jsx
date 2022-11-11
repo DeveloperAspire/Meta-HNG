@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className='relative mt-12'>
+    <footer className=''>
         <div className="footer-wrapper flex justify-between gap-5 px-24 py-12 bg-[#1D1D1E]">
             <div className='flex flex-col gap-12'>
                 <div className='mb-12'><img src="img/logo-white.svg" alt="" /></div>
