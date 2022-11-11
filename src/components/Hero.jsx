@@ -6,7 +6,7 @@ function Hero() {
         <div className='flex flex-col gap-5 basis-7/12'>
         <h1 className='text-[56px] text-[#434343] w-11/12 basis-1/2 hero-head'>Rent a <span className='text-[#A02279] font-bold'>Place</span> away from <span className='text-[#A02279] font-bold'>Home</span> in the <span className='text-[#A02279] font-bold'>Metaverse</span></h1>
         <p className=' w-11/12 text-2xl text-[#434343]'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
-        <form action="" className='w-full'>
+        <form action="" className='w-full hero'>
             <div className="submit-div flex">
             <input type="text" name="" id="" placeholder='Search for location' className='py-4 pl-3 text-[
             #B8B8B8] basis-2/3'/>
