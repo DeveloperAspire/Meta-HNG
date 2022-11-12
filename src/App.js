@@ -2,8 +2,6 @@ import './App.css';
 import Home from './pages/Home';
 import Locations from './pages/Locations';
 import {Routes, Route, BrowserRouter } from 'react-router-dom'
-import { useState } from 'react';
-import Modal from './components/Modal';
 
 function App() {
   return (

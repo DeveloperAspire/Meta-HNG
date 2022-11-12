@@ -2,8 +2,7 @@ import React from 'react'
 import {NavLink} from 'react-router-dom'
 import { useState } from 'react';
 import Modal from './Modal';
-// import '../pop'
-import setOpenModal from '../App'
+import '../pop'
 
 function Header() {
   const [openModal, setOpenModal] = useState(false);
