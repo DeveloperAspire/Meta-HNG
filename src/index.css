@@ -11,6 +11,13 @@
     text-decoration: none;
     font-family: 'Red Rose', cursive;
 }
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+}
 .header-button {
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     border-radius: 10px;
@@ -42,13 +49,36 @@
 }
 
 .locations-form {
-    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
     border: 1px solid #B4B4B4;
     border-radius: 8px;
-    padding: 8px 12px;
+    padding: 6px 8px;
 }
 
 .locations-form input {
     border: 0;
     outline: 0;
+    width: 100%;
+}
+
+.locations-form input::placeholder {
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.filter img {
+    display: inline;
+}
+
+.popup {
+    transform: translate(50%, -50%);
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%; /* Very Important because This triggers the event.target section */
+    height: 100%; /* Very Important because This triggers the event.target section */
 }
