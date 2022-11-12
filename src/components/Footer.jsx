@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 
 function Footer() {
   return (
@@ -15,24 +16,24 @@ function Footer() {
             </div>
             <div className='flex flex-col gap-4'>
                 <h3 className='text-white text-[18px] font-bold mb-2'>Community</h3>
-                <a href='#' className='text-[#F1F3F9] text-sm'>NFT</a>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Tokens</a>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Landlords</a>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Discord</a>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>NFT</NavLink>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Tokens</NavLink>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Landlords</NavLink>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Discord</NavLink>
             </div>
             <div className='flex flex-col gap-4'>
                 <h3 className='text-white text-[18px] font-bold mb-2'>Places</h3>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Castle</a>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Farms</a>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Beach</a>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Learn more</a>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Castle</NavLink>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Farms</NavLink>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Beach</NavLink>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Learn more</NavLink>
             </div>
             <div className='flex flex-col gap-4'>
                 <h3 className='text-white text-[18px] font-bold mb-2'>About us</h3>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Road map</a>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Creators</a>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Career</a>
-                <a href='#' className='text-[#F1F3F9] text-sm'>Contact us</a>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Road map</NavLink>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Creators</NavLink>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Career</NavLink>
+                <NavLink to={''} className='text-[#F1F3F9] text-sm'>Contact us</NavLink>
             </div>
         </div>
     </footer>
