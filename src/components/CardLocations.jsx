@@ -2,7 +2,7 @@ import React from 'react'
 
 function CardLocations() {
   return (
-    <section className='px-24 py-1 flex flex-wrap gap-6 mb-24'>
+    <section className='px-12 sm:px-24 py-1 flex flex-wrap gap-6 mb-24'>
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
               <img src="img/img-5.svg" alt="" className='w-full' />  

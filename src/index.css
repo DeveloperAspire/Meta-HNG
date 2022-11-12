@@ -13,7 +13,7 @@
 }
 
 body {
-    max-width: 1440px;
+    max-width: 1536px;
     width: 100%;
     margin: 0 auto;
 
@@ -81,4 +81,17 @@ body {
     z-index: 1;
     width: 100%; /* Very Important because This triggers the event.target section */
     height: 100%; /* Very Important because This triggers the event.target section */
+}
+
+@media screen and (max-width: 639px) {
+    .hero input[type=text] {
+        background: rgba(247, 247, 247, 0.1);
+        border: 1px solid #A3A3A3;
+        border-radius: 8px;
+    }
+    
+    .hero input[type=submit] {
+        background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+        border-radius: 8px;
+    }
 }

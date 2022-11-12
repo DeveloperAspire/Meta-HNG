@@ -2,7 +2,7 @@ import React from 'react'
 
 function CardHome() {
   return (
-    <section className='px-24 py-1 flex flex-wrap gap-6 mb-14'>
+    <section className='px-12 sm:px-24 py-1 flex flex-wrap gap-6 mb-14'>
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
               <img src="img/img-1.svg" alt="" className='w-full'/>  
