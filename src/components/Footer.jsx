@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 function Footer() {
   return (
     <footer className=''>
-        <div className="footer-wrapper flex flex-col sm:flex-wrap md:flex-nowrap sm:flex-row sm:gap-10 justify-between px-12 sm:px-24 py-12 bg-[#1D1D1E]">
+        <div className="footer-wrapper flex flex-col sm:flex-wrap md:flex-nowrap sm:flex-row gap-10 sm:gap-10 justify-between px-12 sm:px-24 py-12 bg-[#1D1D1E]">
             <div className='flex flex-col gap-12 sm:w-[40%] md:w-auto'>
                 <div className='mb-12'><img src="img/logo-white.svg" alt="" /></div>
                 <div className='flex gap-12'>
