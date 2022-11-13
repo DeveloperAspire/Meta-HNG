@@ -10,7 +10,7 @@ function Hero() {
               <div className="submit-div gap-4 sm:gap-0 flex flex-col sm:flex-row">
                 <input type="text" name="" id="" placeholder='Search for location' className='py-4 pl-3 text-[
                 #B8B8B8] basis-2/3'/>
-                <input type="submit" value="Search" className='text-white py-4 px-24 basis-1/3'/>
+                <input type="submit" value="Search" className='text-white py-4 px-24 basis-1/3 cursor-pointer'/>
               </div>
           </form>
         </div>

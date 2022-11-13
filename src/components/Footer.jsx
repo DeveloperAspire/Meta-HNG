@@ -8,12 +8,13 @@ function Footer() {
             <div className='flex flex-col gap-12 sm:w-[40%] md:w-auto'>
                 <div className='mb-12'><img src="img/logo-white.svg" alt="" /></div>
                 <div className='flex gap-12'>
-                    <img src="img/facebook.svg" alt="Facebook" />
-                    <img src="img/instagram.svg" alt="Instagram" />
-                    <img src="img/twitter.svg" alt="Twitter" />
+                    <NavLink to={''} className=''><img src="img/facebook.svg" alt="Facebook" /></NavLink>
+                    <NavLink to={''} className=''><img src="img/instagram.svg" alt="Instagram" /></NavLink>
+                    <NavLink to={''} className=''><img src="img/twitter.svg" alt="Twitter" /></NavLink>
                 </div>
                 <p className='text-left text-[#F7F7F7]'>© 2022 Metabnb</p>
             </div>
+
             <div className='flex flex-col gap-4 sm:w-[40%] md:w-auto'>
                 <h3 className='text-white text-[18px] font-bold mb-2'>Community</h3>
                 <NavLink to={''} className='text-[#F1F3F9] text-sm'>NFT</NavLink>
@@ -21,6 +22,7 @@ function Footer() {
                 <NavLink to={''} className='text-[#F1F3F9] text-sm'>Landlords</NavLink>
                 <NavLink to={''} className='text-[#F1F3F9] text-sm'>Discord</NavLink>
             </div>
+
             <div className='flex flex-col gap-4 sm:w-[40%] md:w-auto '>
                 <h3 className='text-white text-[18px] font-bold mb-2'>Places</h3>
                 <NavLink to={''} className='text-[#F1F3F9] text-sm'>Castle</NavLink>
@@ -28,6 +30,7 @@ function Footer() {
                 <NavLink to={''} className='text-[#F1F3F9] text-sm'>Beach</NavLink>
                 <NavLink to={''} className='text-[#F1F3F9] text-sm'>Learn more</NavLink>
             </div>
+            
             <div className='flex flex-col gap-4 sm:w-[40%] md:w-auto'>
                 <h3 className='text-white text-[18px] font-bold mb-2'>About us</h3>
                 <NavLink to={''} className='text-[#F1F3F9] text-sm'>Road map</NavLink>
