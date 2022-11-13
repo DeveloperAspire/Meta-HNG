@@ -10,7 +10,7 @@ function MetaBNB() {
           <NavLink to={''} className='text-center mx-auto rounded bg-white text-[#A02279] py-4 px-10 inline-block w-fit lg:text-left lg:mx-0 lg:my-0'>Learn more</NavLink>
         </div>
 
-        <div className='basis-1/2 hidden lg:block'><img src="img/metabnb.svg" alt="" className='w-full'/></div>
+        <div className='basis-1/2 hidden lg:block'><img src="img/metabnb.png" alt="" className='w-full'/></div>
     </section>
   )
 }

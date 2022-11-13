@@ -5,7 +5,7 @@ function CardHome() {
     <section className='px-12 sm:px-24 py-1 flex flex-wrap gap-6 mb-14'>
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
-              <img src="img/img-1.svg" alt="" className='w-full'/>  
+              <img src="img/img-1.jpg" alt="" className='w-full'/>  
               <img src="img/love" alt="" />
             </div>
             <div className='flex justify-between py-4'>
@@ -23,7 +23,7 @@ function CardHome() {
 
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
-              <img src="img/img-2.svg" alt="" className='w-full' />  
+              <img src="img/img-2.jpg" alt="" className='w-full' />  
               <img src="img/love" alt="" />
             </div>
             <div className='flex justify-between py-4'>
@@ -41,7 +41,7 @@ function CardHome() {
 
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
-              <img src="img/img-3.svg" alt="" className='w-full' />  
+              <img src="img/img-3.jpg" alt="" className='w-full' />  
               <img src="img/love" alt="" />
             </div>
             <div className='flex justify-between py-4'>
@@ -59,7 +59,7 @@ function CardHome() {
 
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
-              <img src="img/img-4.svg" alt="" className='w-full' />  
+              <img src="img/img-4.jpg" alt="" className='w-full' />  
               <img src="img/love" alt="" />
             </div>
             <div className='flex justify-between py-4'>
@@ -77,7 +77,7 @@ function CardHome() {
 
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
-              <img src="img/img-5.svg" alt="" className='w-full' />  
+              <img src="img/img-5.jpg" alt="" className='w-full' />  
               <img src="img/love" alt="" />
             </div>
             <div className='flex justify-between py-4'>
@@ -95,7 +95,7 @@ function CardHome() {
 
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
-              <img src="img/img-6.svg" alt="" className='w-full' />  
+              <img src="img/img-6.jpg" alt="" className='w-full' />  
               <img src="img/love" alt="" />
             </div>
             <div className='flex justify-between py-4'>
@@ -113,7 +113,7 @@ function CardHome() {
 
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
-              <img src="img/img-7.svg" alt="" className='w-full' />  
+              <img src="img/img-7.jpg" alt="" className='w-full' />  
               <img src="img/love" alt="" />
             </div>
             <div className='flex justify-between py-4'>
@@ -131,7 +131,7 @@ function CardHome() {
 
           <div className="card-container p-4 basis-full md:basis-[48%] xl:basis-[23%]">
             <div>
-              <img src="img/img-8.svg" alt="" className='w-full' />  
+              <img src="img/img-8.jpg" alt="" className='w-full' />  
               <img src="img/love" alt="" />
             </div>
             <div className='flex justify-between py-4'>

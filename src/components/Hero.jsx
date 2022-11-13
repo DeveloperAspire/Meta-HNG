@@ -15,7 +15,7 @@ function Hero() {
           </form>
         </div>
         <div className='hidden w-full xl:w-2/5 xl:block'>
-        <img src="img/hero-img.svg" alt="" className='object-contain w-full'/>
+        <img src="img/hero-img.png" alt="" className='object-contain w-full'/>
         </div>
     </header>
   )
