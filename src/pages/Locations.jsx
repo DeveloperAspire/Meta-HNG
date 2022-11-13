@@ -2,25 +2,41 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import CardLocations from '../components/CardLocations'
+import {NavLink} from 'react-router-dom'
 
 function Locations() {
   return (
     <>
         <Header />
 
-        <main className='mx-24 py-12'>
-            <div className='flex items-center justify-around'>
-                <div className="w-[80%] flex justify-between">
-                    <a href="" className='text-xl text-[#434343]'>Restaurant</a>
-                    <a href="" className='text-xl text-[#434343]'>Cottage</a>
-                    <a href="" className='text-xl text-[#434343]'>Castle</a>
-                    <a href="" className='text-xl text-[#434343]'>Fantasy City</a>
-                    <a href="" className='text-xl text-[#434343]'>Beach</a>
-                    <a href="" className='text-xl text-[#434343]'>Cabins</a>
-                    <a href="" className='text-xl text-[#434343]'>Off-Grid</a>
-                    <a href="" className='text-xl text-[#434343]'>Farm</a>
+        <main className='mx-6 sm:mx-24 py-12'>
+            <div className='flex items-center justify-between gap-2 sm:gap-0 lg:justify-around'>
+                <div className="w-1/2 lg:w-[80%]">
+                    <div className='flex justify-between max-[1062px]:hidden'>
+                        <NavLink to={''} className='text-xl text-[#434343]'>Restaurant</ NavLink>
+                        <NavLink to={''} className='text-xl text-[#434343]'>Cottage</ NavLink>
+                        <NavLink to={''} className='text-xl text-[#434343]'>Castle</ NavLink>
+                        <NavLink to={''} className='text-xl text-[#434343]'>Fantasy City</ NavLink>
+                        <NavLink to={''} className='text-xl text-[#434343]'>Beach</ NavLink>
+                        <NavLink to={''} className='text-xl text-[#434343]'>Cabins</ NavLink>
+                        <NavLink to={''} className='text-xl text-[#434343]'>Off-Grid</ NavLink>
+                        <NavLink to={''} className='text-xl text-[#434343]'>Farm</ NavLink>
+                    </div>
+                    <div className='min-[1062px]:hidden'>
+                        <label htmlFor="locations" className='pr-0'></label>
+                        <select name="locations" id="locations">
+                            <option value="restaurant">Restaurant</option>
+                            <option value="cottage">Cottage</option>
+                            <option value="castle">Castle</option>
+                            <option value="fantasy-city">Fantasy City</option>
+                            <option value="beach">Beach</option>
+                            <option value="cabins">Cabins</option>
+                            <option value="off-grid">Off-Grid</option>
+                            <option value="farm">Farm</option>
+                        </select>
+                    </div>
                 </div>
-                <div className='w-[13%] locations-form'>
+                <div className='w-1/2 lg:w-[13%] locations-form'>
                     <form action="" className='flex'>
                         <input type="text" name="" id="" placeholder='Location' className='' />
                         <span className='filter'><img src="img/filter.svg" alt="" /></span>

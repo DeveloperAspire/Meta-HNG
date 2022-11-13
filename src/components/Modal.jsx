@@ -6,7 +6,7 @@ function Modal({closeUpModal}) {
         <div className="modal bg-[#c6c6c6af]" id='modal-wrapper' onClick={() => {
         closeUpModal(false)}}></div>
         
-        <div className=' w-1/3 my-0 mx-auto bg-white rounded-2xl fixed right-1/2 top-1/2 popup z-[1]'>
+        <div className='w-10/12 sm:1/2 md:w-7/12 lg:w-1/3 my-0 mx-auto bg-white rounded-2xl fixed right-1/2 top-1/2 popup z-[1] z-30'>
       
             <header>
                 <div className='flex justify-between p-4  border-b-gray-100 border-b-2'>

@@ -20,7 +20,9 @@ function Home() {
             <div><img src="img/opensea.svg" alt="" /></div>
         </section>
 
-        <h2 className='text-3xl sm:text-5xl font-bold text-black text-center mb-14'>Inspiration for your next adventure</h2>
+        <div className='w-11/12 my-0 mx-auto'>
+          <h2 className='text-3xl sm:text-5xl font-bold text-black text-center mb-14'>Inspiration for your next adventure</h2>
+        </div>
 
         <CardHome />
 
