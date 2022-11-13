@@ -83,8 +83,8 @@ body {
     height: 100vh;
 }
 
-.popup-menu {
-
+select, button {
+    outline: none;
 }
 
 .modal {
@@ -94,6 +94,10 @@ body {
     z-index: 1;
     width: 100%; /* Very Important because This triggers the event.target section */
     height: 100%; /* Very Important because This triggers the event.target section */
+}
+
+.modal-content {
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
 }
 
 @media screen and (max-width: 639px) {

@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
   return (
     <header className='flex items-center justify-between gap-12 px-12 sm:px-24 py-12 mb-24 flex-col xl:flex-row'>
-        <div className='flex flex-col gap-5 w-full md:w-4/5 xl:w-3/5'>
+        <div className='flex flex-col gap-5 w-full xl:w-3/5'>
           <h1 className='text-3xl sm:text-[56px] text-[#434343] hero-head'>Rent a <span className='text-[#A02279] font-bold'>Place</span> away from <span className='text-[#A02279] font-bold'>Home</span> in the <span className='text-[#A02279] font-bold'>Metaverse</span></h1>
           <p className=' w-11/12 sm:text-2xl text-[#434343]'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
           <form action="" className='w-full hero'>

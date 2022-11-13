@@ -10,7 +10,7 @@ function Locations() {
         <Header />
 
         <main className='mx-6 sm:mx-24 py-12'>
-            <div className='flex items-center justify-between gap-2 sm:gap-0 lg:justify-around'>
+            <div className='flex items-center justify-between gap-2 sm:gap-0 lg:justify-start'>
                 <div className="w-1/2 lg:w-[80%]">
                     <div className='flex justify-between max-[1062px]:hidden'>
                         <NavLink to={''} className='text-xl text-[#434343]'>Restaurant</ NavLink>
@@ -36,7 +36,7 @@ function Locations() {
                         </select>
                     </div>
                 </div>
-                <div className='w-1/2 lg:w-[13%] locations-form'>
+                <div className='w-1/2 lg:w-[13%] lg:ml-8 locations-form'>
                     <form action="" className='flex'>
                         <input type="text" name="" id="" placeholder='Location' className='' />
                         <span className='filter'><img src="img/filter.svg" alt="" /></span>
